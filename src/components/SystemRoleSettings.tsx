@@ -59,7 +59,7 @@ export default (props: Props) => {
           <div>
             <textarea
               ref={systemInputRef!}
-              placeholder="You are a helpful assistant, answer as concisely as possible...."
+              placeholder="You are a helpful assistant; however, your answers require an internet connection."
               autocomplete="off"
               autofocus
               rows="3"
